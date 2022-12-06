@@ -1,0 +1,303 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+header{
+    position: relative;
+    display:flex;
+    /* border:2px solid purple; */
+    width:100vw;
+    height: 66px;
+    align-items: center;
+    /* background-color: rgb(180, 75, 75); */
+    color:white;
+    background-image: linear-gradient(rgb(46, 45, 45),black);
+}
+
+header h3{
+    position: absolute;
+    font-size:25px;
+    left:7%; 
+}
+
+#search{
+    position: absolute;
+    left: 37%;
+    width: 16%;
+    top: 30%;
+    height: 26px;
+    background:none;
+    border:1px solid grey;
+    color:white;
+
+}
+
+#search:hover{
+    border:1px solid rgb(143, 142, 142);
+    box-shadow: 1px 1px 5px white;
+}
+
+#searchbtn{
+    position: absolute;
+    width: 8%;
+    height: 45%;
+    top: 30%;
+    left: 54%;
+    background-color: transparent;
+    color:white;
+    border:1px solid gray;
+    font-size: 14px;
+    
+}
+
+#searchbtn:hover{
+    box-shadow: 1px 1px 5px white;
+}
+
+
+
+#login{
+    position:absolute;
+    font-size: 17px;
+    right: 19%;
+    text-decoration: none;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#login:hover{
+    color:grey;
+    cursor:pointer;
+}
+
+#signup{
+    position:absolute;
+    right: 8%;
+    text-decoration: none;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#signup:hover{
+    color:grey;
+    cursor: pointer;
+}
+
+.offerbox{
+    /* border:2px solid red; */
+    width:100vw;
+    height: 80vh;
+    /* background: url(kaara.jpg); */
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    opacity: 0.8;
+}
+
+#menu{
+    /* border:2px solid green; */
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    height:53px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+    
+}
+
+.menucontainer{
+    /* border:1px solid grey; */
+    width:100vw;
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.box{
+    border:1px solid grey;
+    height:200px;
+    width:280px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    color: black;
+    opacity: 0.7;
+    font-weight: 600;
+}
+.box:hover{
+    cursor: pointer;
+    opacity:0.9;
+    transition: 0.3s;
+    font-size: 20px;
+    color: white;
+    text-shadow: black 1px 2px;
+    
+}
+
+#box1{
+    background:url(soup.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#box2{
+    background:url(maincourse.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#box3{
+    background:url(dessert.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#box4{
+    background:url(cocktail.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#slider{
+    position:absolute;
+    width: 30px;
+    height:30px;
+    right: 3%;
+    filter: invert(1);
+}
+#slider:hover{
+    filter:grayscale(80%);
+}
+
+
+#togglewindow{
+    height:605px;
+    width:0px;
+    background-image: linear-gradient(rgb(37, 37, 37),black);
+    position: absolute;
+    right:0%;
+    /* border:2px solid green; */
+    top:0px;
+    border-radius: 5px; 
+    border:0.2px solid gray;
+}
+
+.offerbox #togglewindow .togglebox{
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    height:20%;
+    margin:10px 10px;
+    padding:10px;
+    
+}
+
+.offerbox #togglewindow .togglebox a{
+    color:white;
+    text-decoration: none;
+    padding:10px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.offerbox #togglewindow .togglebox a:hover{
+    color:grey;
+}
+
+.aboutusinfo{
+    /* border:2px solid red; */
+    width:100vw;
+    height:400px;
+}
+
+.aboutusinfo .aboutusheading{
+    
+width:100vw;
+    
+height:80px;
+    
+display:flex;
+    
+align-items: center;
+    
+justify-content: center;
+    
+/* background-color: ghostwhite; */
+}
+
+.aboutusinfo .justinfo{
+     border:1px solid rgb(146, 146, 146);
+     width:100vw;
+     height:80%;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     background-color: rgb(230, 230, 235);
+}
+
+.aboutusinfo .justinfo .justinfoimg{
+    /* border:2px solid green; */
+    height:200px;
+    width:200px;
+    
+}
+
+.aboutusinfo .justinfo .justinfoinfo{
+    /* border:2px solid gold; */
+    height:200px;
+    width:600px;
+}
+
+footer{
+    /* border:2px solid black; */
+    width:100vw;
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border:1px solid gray; */
+    background-color: rgb(230, 230, 235);
+}
+
+.fcont{
+ /* border:2px solid purple; */
+ width:150px;
+ height:200px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.fcont p:hover{
+    color: purple;
+    cursor: pointer;
+}
+
+.end{
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:40px;
+}
+
+
+
+
+
+
+

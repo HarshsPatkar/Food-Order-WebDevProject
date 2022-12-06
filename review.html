@@ -1,0 +1,88 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+
+    <style>
+    *{
+        padding:0;
+        margin:0;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+
+    body{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        height:100vh;
+        background:url('review.jpg');
+        background-size:cover;
+        background-position: center;
+        
+    }
+
+    .container{
+        /* border: 2px solid black; */
+        width: 472px;
+    height: 466px;
+    position: relative;
+    background-color: white;
+    border-radius: 25px;
+   
+        
+    }
+
+    #review{
+        width: 331px;
+        height: 300px;
+        position: absolute;
+        top: 94px;
+        left: 73px;
+        height: 261px;
+        border-radius: 10px;
+        border: 1px solid grey;
+    }
+
+    h5{
+        font-size: 20px;
+    position: absolute;
+    top: 38px;
+    left: 86px;
+    color: black;
+    }
+
+    #reviewsubmit{
+        position: absolute;
+    padding: 12px;
+    width: 100px;
+    top: 388px;
+    left: 191px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    font-size: 14px;
+    }
+
+    #reviewsubmit:hover{
+        background-color:palevioletred;
+        transition-duration:0.3s;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h5>Write your valuable review here!</h5>
+        <form action="review.php" method="post">
+        <input type="text" id="review" name="review"><br>
+        <input type="submit" id="reviewsubmit" value="Submit"></button>
+        </form>
+    </div>
+</body>
+</html>
+
